@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navigation Bar */
+.navbar-b {
+  size: 8%;
+}
+
+.clr-top {
+  background: linear-gradient(to top, #A5C9CA, #395B64);
+}
+
+.clr-mid {
+  background-color: #A5C9CA;
+}
+
+.clr-bottom {
+  background: linear-gradient(to top, #395B64, #A5C9CA);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-family: "ITC Avant Garde Gothic"
+    , sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  padding: 1rem;
+}
+
+.container-fluid {
+
+  padding: 5% 14%;
+}
+
+
+.btn-src {
+  outline-color: #2C3333;
+  background-color: #A5C9CA;
+  color: #2C3333;
+
+}
+
+.imgfav {
+  border-radius: 100%;
+  left: 5%;
+  top: -1%;
+  margin-right: 20px;
+  height: 60px;
+  width: 60px;
+}
+
+.img-main {
+  height: 70%;
+  width: 130%;
+}
+
+.space {
+  padding-right: 50px;
+}
+
+.btn-cv {
+  background-color: #2C3333;
+  color: #E7F6F2;
+}
+
+.bg {
+  background-color: #395B64;
+}
+
+/* Title */
+.big-heading {
+  font-family: "Haas Grot Text R Web",
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+  margin: 17% 0;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 4rem;
+  letter-spacing: 0.8px;
+  font-size: 50px;
+  text-align: left;
+}
+
+.small-heading {
+  font-family: "" Montserrat",
+ sans-serif;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.5rem;
+  letter-spacing: 2px;
+  margin: 10% 0;
+}
+
+.btn-size {
+  margin: 3% 2%;
+  text-align: center;
+}
+
+/* Skills */
+.skill-heading {
+  text-align: center;
+  margin: 2% auto;
+}
+
+.container-bg {
+
+  padding: 5% 14%;
+
+}
+
+.skill-row {
+  margin-top: 10%;
+  margin-right: 12%;
+}
+
+/* Projects */
+.card-row {
+  margin-top: 18%;
+}
+
+.card-bg {
+  background-color: #E7F6F2;
+  margin: 10px;
+
+}
+
+.skills-btn {
+  text-align: center;
+}
+
+.skills-imgs {
+  max-height: 150px;
+
+}
+
+#testimonials {
+
+  padding-top: 100px;
+
+}
+
+
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.footer-section {
+  text-align: center;
+
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
